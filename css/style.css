@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Slab', serif;  
+    background: whitesmoke;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url('../images/bug.jpg');
+    width: vw;
+    display: block;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 40%;
+    color: white;
+}
+
+.jumbotron a {
+    color: white;
+}
+
+.contact {
+    margin: auto auto;
+    width: 500px;
+}
+
+@media only screen and (max-width: 550px) {
+    /* You don't need to learn about @media (AKA Media Queries) yet, but they're super handy when you load the page on a mobile phone so that things don't get too squished.
+    Try and resize the browser window to be a lot thinner, and see how the .context items changed to be stacked vertically. All I'm doing is changing .context to display:block. */
+    .contact {
+        width: auto;
+    }
+} 
+
+.facebook a {
+    font-size: 70px;
+}
