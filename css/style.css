@@ -19,19 +19,6 @@ body {
     color: white;
 }
 
-.contact {
-    margin: auto auto;
-    width: 500px;
-}
-
-@media only screen and (max-width: 550px) {
-    /* You don't need to learn about @media (AKA Media Queries) yet, but they're super handy when you load the page on a mobile phone so that things don't get too squished.
-    Try and resize the browser window to be a lot thinner, and see how the .context items changed to be stacked vertically. All I'm doing is changing .context to display:block. */
-    .contact {
-        width: auto;
-    }
-} 
-
 .facebook a {
     font-size: 70px;
 }
